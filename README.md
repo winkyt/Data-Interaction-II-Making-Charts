@@ -14,13 +14,13 @@ Word cloud is a visual representation of text data. It is also known as tag clou
 
 **API Reference** 
 The following informaiton are from Jaosn Davies Github document.
-* # d3.layout.cloud(): Constructs a new cloud layout instance.
-* # on(type, listener):Registers the specified listener to receive events of the specified type from the layout. Currently, only "word" and "end" events are supported. A "word" event is dispatched every time a word is successfully placed. Registered listeners are called with a single argument: the word object that has been placed. An "end" event is dispatched when the layout has finished attempting to place all words. Registered listeners are called with two arguments: an array of the word objects that were successfully placed, and a bounds object of the form [{x0, y0}, {x1, y1}] representing the extent of the placed objects.
+* #d3.layout.cloud(): Constructs a new cloud layout instance.
+* #on(type, listener):Registers the specified listener to receive events of the specified type from the layout. Currently, only "word" and "end" events are supported. A "word" event is dispatched every time a word is successfully placed. Registered listeners are called with a single argument: the word object that has been placed. An "end" event is dispatched when the layout has finished attempting to place all words. Registered listeners are called with two arguments: an array of the word objects that were successfully placed, and a bounds object of the form [{x0, y0}, {x1, y1}] representing the extent of the placed objects.
 
-* # start(): Starts the layout algorithm. This initialises various attributes on the word objects, and attempts to place each word, starting with the largest word. Starting with the centre of the rectangular area, each word is tested for collisions with all previously-placed words. If a collision is found, it tries to place the word in a new position along the spiral.
+* #start(): Starts the layout algorithm. This initialises various attributes on the word objects, and attempts to place each word, starting with the largest word. Starting with the centre of the rectangular area, each word is tested for collisions with all previously-placed words. If a collision is found, it tries to place the word in a new position along the spiral.
  Note: if a word cannot be placed in any of the positions attempted along the spiral, it is not included in the final word layout. This may be addressed in a future release.
 
-* # stop():Stops the layout algorithm.
+* #stop():Stops the layout algorithm.
 
 * # timeInterval([time]):Internally, the layout uses setInterval to avoid locking up the browser’s event loop. If specified, time is the maximum amount of time that can be spent during the current timestep. If not specified, returns the current maximum time interval, which defaults to Infinity.
 
