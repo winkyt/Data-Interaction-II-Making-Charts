@@ -3,8 +3,8 @@ A **chart** is a graphical representation of data. It is also known as graph. Pe
 
 **Word Cloud:**
 Word cloud is a visual representation of text data. It is also known as tag cloud or weighted list. This technique depicts keyword metadata on website or to visualize free from text. Usually, people use **inline HTML elements** to make word cloud. People rank texts by alphabetical order, or in a random order. To create a word cloud, selective texts are weigthed by frequency. To visual word cloud, people manipulate the texts by using different font size, color and shapes of cluster.
-![GitHub Logo](/img/example1.png)
-Format: ![Alt Text](url)
+![Example1](https://github.com/winkyt/Data-Interaction-II-Making-charts/blob/master/Img/Example1.png)
+
 **Feature of work cloud**:
 * Size: Large size represent a more important content and is more attractive to audience. Content properties, such as number of characters, position and neighboring tag, influence the effect. 
 * Scanning: Audience tend to scan the chart than read through all materials. 
