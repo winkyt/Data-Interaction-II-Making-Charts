@@ -11,4 +11,5 @@ Word cloud is a visual representation of text data. It is also known as tag clou
 * Position: At the western culture, people start to read from the upper left side. 
 * Exploration: When audiences look for a specific content, work cloud provide suboptmal supprot. 
 
-**
+**Word Cloud Generator**
+Link:https://www.jasondavies.com/wordcloud/
