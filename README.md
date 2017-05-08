@@ -89,7 +89,7 @@ Once you have a your dataset, you can use an online machine to covert your file.
 Link:http://www.convertcsv.com/csv-to-json.htm (A suggestion, not only option)
 
 ``` javascript
-**d3.json**('example.json', function (data) {
+d3.json('example.json', function (data) {
     var state = [];
     data.forEach(function(row){
         if (row.count > 0) state.push({text: row.state, size: Number(row.count)});
