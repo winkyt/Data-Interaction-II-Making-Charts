@@ -84,19 +84,24 @@ d3.csv('Example.csv', function (data) {
 });
 
 ```
-![d3.csv](https://github.com/winkyt/Data-Interaction-II-Making-charts/blob/master/Img/CSV.png)
-
 **Use a .json file** 
-Once you have a your dataset, you can use an online convert.
+Once you have a your dataset, you can use an online machine to covert your file. 
+Link:http://www.convertcsv.com/csv-to-json.htm (A suggestion, not only option)
+
+``` javascript
+**d3.json**('example.json', function (data) {
+    var state = [];
+    data.forEach(function(row){
+        if (row.count > 0) state.push({text: row.state, size: Number(row.count)});
+    });
+```
+![d3.csv](https://github.com/winkyt/Data-Interaction-II-Making-charts/blob/master/Img/CSV.png)
 
 ## Usage
 See the samples in `Example/`. For CSV, go to example.js. For hardcode, go to example1.js
 
 **Word Cloud Generator**
 Link:https://www.jasondavies.com/wordcloud/
-
-**CSV to JSON Convertion**
-Link:http://www.convertcsv.com/csv-to-json.htm (A suggestion, not only option)
 
 **Reference Link**
 https://github.com/jasondavies/d3-cloud
