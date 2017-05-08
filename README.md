@@ -53,4 +53,7 @@ The following informaiton are from Jaosn Davies Github document.
 Link:https://www.jasondavies.com/wordcloud/
 
 Link:https://github.com/jasondavies/d3-cloud
-wikipedia:https://en.wikipedia.org/wiki/Tag_cloud
+
+https://en.wikipedia.org/wiki/Tag_cloud
+
+http://static.mrfeinberg.com/bv_ch03.pdf
