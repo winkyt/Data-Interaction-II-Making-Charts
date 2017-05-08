@@ -49,6 +49,11 @@ The following informaiton are from Jaosn Davies Github document.
 
 * #canvas([canvas]):If specified, sets the canvas generator function, which is used internally to draw text. If not specified, returns the current generator function.
 
+**Code your data**
+``` javascript
+	console.log("hello,world!")
+``` 
+
 **Word Cloud Generator**
 Link:https://www.jasondavies.com/wordcloud/
 
