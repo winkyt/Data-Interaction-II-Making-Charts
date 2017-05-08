@@ -55,7 +55,7 @@ The following informaiton are from Jaosn Davies Github document.
 ```
 ![Hardcode example](https://github.com/winkyt/Data-Interaction-II-Making-charts/blob/master/Img/Hardcode.png)
 
-**Input a CSV file**
+**Use a CSV file**
 ``` javascript
 d3.csv('Example.csv', function (data) {
     var state = [];
@@ -85,6 +85,9 @@ d3.csv('Example.csv', function (data) {
 
 ```
 ![d3.csv](https://github.com/winkyt/Data-Interaction-II-Making-charts/blob/master/Img/CSV.png)
+
+**Use a .json file** 
+Once you have a your dataset, you can use an online convert.
 
 ## Usage
 See the samples in `Example/`. For CSV, go to example.js. For hardcode, go to example1.js
