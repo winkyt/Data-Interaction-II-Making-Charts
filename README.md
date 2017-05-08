@@ -1,16 +1,16 @@
 ## Data-Interaction-II-Making-charts(Word Cloud)
-A **chart** is a graphical representation of data. It is also known as graph. People use chart to show large quantities of data and the relationships between parts of the data. Map makers will use chart to help their audiences to understand the content when maps contain a large amount of informaiton. But, of course, you can use a chart whenever you want. **Remember**! Charts help your audiences to understand your material easily, not create confusion. **Word Cloud** is an useful tool to make your chart.
+A **chart** is a graphical representation of data. It is also known as a graph. People use charts to show large quantities of data and the relationships between parts of the data. Map makers will use charts to help their audiences to highlight important components, when maps contain a large amount of informaiton. But, of course, you can use a chart whenever you want. **Remember**! Charts help your audiences to understand your material easily, not create confusion. **Word Cloud** is an useful tool to make your chart.
 
 **Word Cloud:**
-Word cloud is a visual representation of text data. It is also known as tag cloud or weighted list. This technique depicts keyword metadata on website or to visualize free from text. Usually, people use **inline HTML elements** to make word cloud. People rank texts by alphabetical order, or in a random order. To create a word cloud, selective texts are weigthed by frequency. To visual word cloud, people manipulate the texts by using different font size, color and shapes of cluster.
+Word Cloud is a visual representation of text data. It is also known as a tag cloud or weighted list. This technique depicts keyword metadata on websites or visualizations of important words or ideas from texts. Usually, people use **inline HTML elements** to make word clouds. People rank texts by alphabetical order, or in a random order. To create a word cloud, selective texts are weigthed by frequency. To visual word clouds, people manipulate the texts by using different font size, color and shapes of cluster.
 ![Example1](https://github.com/winkyt/Data-Interaction-II-Making-charts/blob/master/Img/Example1.png)
 
 **Feature of Work Cloud**:
-* Size: Large size represent a more important content and is more attractive to audience. Content properties, such as number of characters, position and neighboring tag, influence the effect. 
-* Scanning: Audience tend to scan the chart than read through all materials. 
-* Centering: placing the most important feature/content at the center area. It helps attract to your audiences
-* Position: At the western culture, people start to read from the upper left side. 
-* Exploration: When audiences look for a specific content, work cloud provide suboptimal support. 
+* Size: Large size represent more important content and is more attractive to the audience. Content properties, such as number of characters, position and neighboring tag, influence the effect. 
+* Scanning: Audiences tend to scan the chart instead of reading through all materials. 
+* Centering: Placing the most important feature/content at the center area. It helps attract your audiences' attention.
+* Position: In western culture, people start to read from the upper left side. 
+* Exploration: When audiences look for specific content, work clouds provide suboptimal support. 
 
 **API Reference** 
 The following informaiton are from Jaosn Davies Github document.
@@ -85,7 +85,7 @@ d3.csv('Example.csv', function (data) {
 
 ```
 **Use a .json file** 
-Once you have a your dataset, you can use an online machine to covert your file. 
+Once you have your dataset, you can use an online machine to covert your file. 
 Link:http://www.convertcsv.com/csv-to-json.htm (A suggestion, not only option)
 
 ``` javascript
