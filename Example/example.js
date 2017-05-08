@@ -5,27 +5,27 @@ var width = 800,
 var fill = d3.scale.category20();
 
 d3.csv('Example.csv', function (data) {
-    var leaders = [];
+    var state = [];
     data.forEach(function(row){
-        if (row.G > 0) leaders.push({text: row.Name, size: Number(row.G)});
+        if (row.G > 0) state.push({text: row.Name, size: Number(row.G)});
     });
 
-    var leaders = leaders.sort(function(a,b){
+    var state = state.sort(function(a,b){
         return (a.size < b.size)? 1:(a.size == b.size)? 0:-1
     }).slice(0,50);
 
-    var leaderScale = d3.scale.linear()
+    var stateScale = d3.scale.linear()
         .range([10,60])
-        .domain([d3.min(leaders,function(d) { return d.size; }),
-                 d3.max(leaders,function(d) { return d.size; })
+        .domain([d3.min(state,function(d) { return d.size; }),
+                 d3.max(state,function(d) { return d.size; })
                ]);
 
     d3.layout.cloud().size([width, height])
-        .words(leaders)
+        .words(state)
         .padding(0)
         .rotate(function() { return ~~(Math.random() * 2) * 90; })
         .font("Impact")
-        .fontSize(function(d) { return leaderScale(d.size); })
+        .fontSize(function(d) { return stateScale(d.size); })
         .on("end", drawCloud)
         .start();
 });
