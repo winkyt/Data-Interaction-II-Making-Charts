@@ -10,7 +10,7 @@ Word cloud is a visual representation of text data. It is also known as tag clou
 * Scanning: Audience tend to scan the chart than read through all materials. 
 * Centering: placing the most important feature/content at the center area. It helps attract to your audiences
 * Position: At the western culture, people start to read from the upper left side. 
-* Exploration: When audiences look for a specific content, work cloud provide suboptmal supprot. 
+* Exploration: When audiences look for a specific content, work cloud provide suboptimal support. 
 
 **API Reference** 
 The following informaiton are from Jaosn Davies Github document.
