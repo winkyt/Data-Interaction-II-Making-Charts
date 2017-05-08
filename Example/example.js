@@ -1,6 +1,6 @@
 /*The original code is from www.packtpub.com and modified by Yingqi Tang*/
-var width = 750,
-    height = 500;
+var width = 800,
+    height = 400;
 
 var fill = d3.scale.category20();
 
@@ -12,7 +12,7 @@ d3.csv('Example.csv', function (data) {
 
     var leaders = leaders.sort(function(a,b){
         return (a.size < b.size)? 1:(a.size == b.size)? 0:-1
-    }).slice(0,100);
+    }).slice(0,50);
 
     var leaderScale = d3.scale.linear()
         .range([10,60])
@@ -23,7 +23,7 @@ d3.csv('Example.csv', function (data) {
     d3.layout.cloud().size([width, height])
         .words(leaders)
         .padding(0)
-        //.rotate(function() { return ~~(Math.random() * 2) * 90; })
+        .rotate(function() { return ~~(Math.random() * 2) * 90; })
         .font("Impact")
         .fontSize(function(d) { return leaderScale(d.size); })
         .on("end", drawCloud)
