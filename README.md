@@ -85,6 +85,9 @@ d3.csv('Example.csv', function (data) {
 ```
 ![d3.csv](https://github.com/winkyt/Data-Interaction-II-Making-charts/blob/master/Img/CSV.png)
 
+## Usage
+See the samples in `Example/`. For CSV, go to example.js. For hardcode, go to example1.js
+
 **Word Cloud Generator**
 Link:https://www.jasondavies.com/wordcloud/
 
