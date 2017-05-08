@@ -92,7 +92,11 @@ See the samples in `Example/`. For CSV, go to example.js. For hardcode, go to ex
 **Word Cloud Generator**
 Link:https://www.jasondavies.com/wordcloud/
 
-Link:https://github.com/jasondavies/d3-cloud
+**CSV to JSON Convertion**
+Link:http://www.convertcsv.com/csv-to-json.htm (A suggestion, not only option)
+
+**Reference Link**
+https://github.com/jasondavies/d3-cloud
 
 https://en.wikipedia.org/wiki/Tag_cloud
 
