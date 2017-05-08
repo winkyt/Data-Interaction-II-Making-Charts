@@ -54,6 +54,7 @@ The following informaiton are from Jaosn Davies Github document.
 	var frequency_list = [{"text":"study","size":40},{"text":"motion","size":15}];
 ```
 ![Hardcode example](https://github.com/winkyt/Data-Interaction-II-Making-charts/blob/master/Img/Hardcode example.png)
+
 **Input a CSV file**
 ``` javascript
 d3.csv('Example.csv', function (data) {
@@ -83,6 +84,7 @@ d3.csv('Example.csv', function (data) {
 });
 ```
 ![d3.csv](https://github.com/winkyt/Data-Interaction-II-Making-charts/blob/master/Img/CSV example.png)
+
 **Word Cloud Generator**
 Link:https://www.jasondavies.com/wordcloud/
 
