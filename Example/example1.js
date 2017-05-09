@@ -9,11 +9,11 @@ var width =750, height =350
 
 var color = d3.scale.linear()
     .domain([0,1,2,3,4,5,6,10,15,20,100])
-    .range(["#ddd", "#ccc", "#bbb", "#aaa", "#999", "#888", "#777", "#666", "#555", "#444", "#333", "#222"]);
+    .range(['#67001f','#b2182b','#d6604d','#f4a582','#fddbc7','#f7f7f7','#d1e5f0','#92c5de','#4393c3','#2166ac','#053061']);
 
 d3.layout.cloud().size([width, height])/* pre-determine width*/
     .words(frequency_list)
-    .padding(2)
+    .padding(6)
     .rotate(function() { return ~~(Math.random() * 2) * 90; }) /*No rotation, rotate(0)*/
     .fontSize(function(d) { return d.size; })
     .on("end", draw)
@@ -33,6 +33,7 @@ function draw(words) {
         .enter().append("text")
         .style("font-size", function(d) { return d.size + "px"; })
         .style("fill", function(d, i) { return color(i); })
+        .attr("text-anchor","middle")
         .attr("transform", function(d) {
             return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
         })

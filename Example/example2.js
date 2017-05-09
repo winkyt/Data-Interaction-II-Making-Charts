@@ -1,19 +1,21 @@
+/**
+ * Created by yingqitang on 5/8/17.
+ */
 /*The original code is from www.packtpub.com and modified by Yingqi Tang*/
-
-var width = 750,
-    height = 500;
+var width = 800,
+    height = 400;
 
 var fill = d3.scale.category20();
 
-d3.csv('Example.csv', function (data) {
+d3.json('example.json', function (data) {
     var state = [];
     data.forEach(function(row){
-        if (row.G > 0) state.push({text: row.Name, size: Number(row.G)});
+        if (row.count > 0) state.push({text: row.state, size: Number(row.count)});
     });
 
     var state = state.sort(function(a,b){
         return (a.size < b.size)? 1:(a.size == b.size)? 0:-1
-    }).slice(0,100);
+    }).slice(0,50);
 
     var stateScale = d3.scale.linear()
         .range([10,60])
@@ -24,7 +26,7 @@ d3.csv('Example.csv', function (data) {
     d3.layout.cloud().size([width, height])
         .words(state)
         .padding(0)
-        //      .rotate(function() { return ~~(Math.random() * 2) * 90; })
+        .rotate(function() { return ~~(Math.random() * 2) * 90; })
         .font("Impact")
         .fontSize(function(d) { return stateScale(d.size); })
         .on("end", drawCloud)
@@ -50,4 +52,3 @@ function drawCloud(words) {
         })
         .text(function(d) { return d.text; });
 }
-
