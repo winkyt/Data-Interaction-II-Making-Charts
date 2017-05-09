@@ -55,6 +55,9 @@ The following informaiton are from Jaosn Davies Github document.
 ```
 ![Hardcode example](https://github.com/winkyt/Data-Interaction-II-Making-charts/blob/master/Img/Hardcode.png)
 
+The word cloud blow has the same text content with different color, spacing and text orietation)
+![Hardcode modified](https://github.com/winkyt/Data-Interaction-II-Making-charts/blob/master/Img/Modified%20.png)
+
 **Use a CSV file**
 ``` javascript
 d3.csv('Example.csv', function (data) {
