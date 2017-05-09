@@ -106,9 +106,11 @@ d3.json('example.json', function (data) {
 See the samples in `Example/`. For hardcode, go to example.js. For CSV, go to example1.js. For .json, go to example2.
 
 **Word Cloud Generator**
+
 Link:https://www.jasondavies.com/wordcloud/
 
 **Reference Link**
+
 https://github.com/jasondavies/d3-cloud
 
 https://en.wikipedia.org/wiki/Tag_cloud
@@ -116,6 +118,7 @@ https://en.wikipedia.org/wiki/Tag_cloud
 http://static.mrfeinberg.com/bv_ch03.pdf
 
 **External Link**
+
 https://github.com/amueller/word_cloud
 
 https://www.youtube.com/watch?v=1KEiTIu0k44
