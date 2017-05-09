@@ -1,4 +1,4 @@
-## Data-Interaction-II-Making-charts(Word Cloud)
+## Data-Interaction-II-Making-Charts(Word Cloud)
 A **chart** is a graphical representation of data. It is also known as a graph. People use charts to show large quantities of data and the relationships between parts of the data. Map makers will use charts to help their audiences to highlight important components, when maps contain a large amount of informaiton. But, of course, you can use a chart whenever you want. **Remember**! Charts help your audiences to understand your material easily, not create confusion. **Word Cloud** is an useful tool to make your chart.
 
 **Word Cloud:**
