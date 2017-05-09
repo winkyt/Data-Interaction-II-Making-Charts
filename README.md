@@ -100,8 +100,10 @@ d3.json('example.json', function (data) {
 ```
 ![d3.csv](https://github.com/winkyt/Data-Interaction-II-Making-charts/blob/master/Img/CSV.png)
 
+![d3.csv](https://github.com/winkyt/Data-Interaction-II-Making-charts/blob/master/Img/Modified2.png)
+
 ## Usage
-See the samples in `Example/`. For CSV, go to example.js. For hardcode, go to example1.js
+See the samples in `Example/`. For hardcode, go to example.js. For CSV, go to example1.js. For .json, go to example2.
 
 **Word Cloud Generator**
 Link:https://www.jasondavies.com/wordcloud/
